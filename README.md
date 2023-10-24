@@ -16,10 +16,10 @@ A personal portfolio website can help you in several ways:
 
 4. Build credibility and trust: A personal portfolio website can help you build credibility and trust with potential clients, employers, and collaborators. It shows that you take your work seriously and that you're committed to your profession.
 
-Now that we've established the importance of a personal portfolio website, let's talk about how to build one using the Personal Portfolio Webflow Template.
+Now that we've established the importance of a personal portfolio website, let's talk about how to build one using React.JS.
 
-Webflow is a website builder that allows you to design and build responsive websites without any coding knowledge. The Personal Portfolio Webflow Template is a great starting point for creating a personal portfolio website.
-Here's how to build a personal portfolio website using the Personal Portfolio Webflow Template:
+REACT.JS is a JS Library builder that allows you to design and build responsive websites easily and efficiently.
+
 
 ## Technologies Used:
     Frontend: HTML, CSS, JavaScript
@@ -37,7 +37,9 @@ by Facebook. It's used for building interactive user interfaces and web applicat
 quickly and efficiently with significantly less code than you would with vanilla 
 JavaScript. 
 React (also known as React. js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies. React.
+
 ==>
+
 ADVANTAGE OF REACTJS
     Easy to learn and use
     Fast and efficient
@@ -59,8 +61,8 @@ Features: COMPONENTS, JSX, EVENT HANDLING, FORM, REAT-ROUTE-DOM, UseState, etc..
 
 
 ## Roadmap and future enhancements:
-Potentials improvements in the future, the Portfolio will be implemented in the larger website project to interact with users as members in the purpose of community website or my freelance business.
-And This could include additional features, performance optimizations, or scalability considerations.
+    Potentials improvements in the future, the Portfolio will be deployed in the hosting web could and having a domain name als. It will be implemented in the larger website project to interact with users as members in the purpose of community
+    website or my freelance business. And This could include additional features, performance optimizations, or scalability considerations.
 
 ## Contact Information:
         Author: *JULIAL MAESSER ESSEREKE*
