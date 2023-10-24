@@ -27,7 +27,7 @@ function App() {
 				<Route path="/skills" component={<Skills />} />
 				<Route path="/projects" component={<Projects />} />
 				<Route path="/contact" component={<Form />} />
-				<Route path="/demo" element={<MyPlayer />} />
+				<Route path="/myplayer" element={<MyPlayer />} />
 				{/* 404 */}
 				<Route
 					path="*"

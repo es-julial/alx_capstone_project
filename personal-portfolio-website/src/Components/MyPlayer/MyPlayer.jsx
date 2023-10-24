@@ -5,7 +5,7 @@
 // const MyPlayer = () => {
 // 	const [show, setShow] = useState(true);
 // 	return (
-		
+
 // 		show?<div className="demo-container">
 // 			<h1>
 // 				Demo: <span> Portfolio </span>
@@ -15,9 +15,7 @@
 // 			</video>
 // 			<button onClick={() => setShow(!show)}>Toggle</button>
 // 		</div>:null
-		
-		
-		
+
 // 	);
 // };
 
@@ -28,9 +26,7 @@ import "./MyPlayer.css";
 import video from "../../assets/video.mp4";
 
 const MyPlayer = () => {
-	
 	return (
-		
 		<div className="demo-container" id="demo">
 			<h1>
 				Demo: <span> Portfolio </span>
@@ -38,13 +34,20 @@ const MyPlayer = () => {
 			<video className="video-container" with="750" height="500" controls>
 				<source className="src-content" src={video} type="video/mp4" />
 			</video>
-			
+
+			<button
+				className="btn"
+				onClick={() => {
+					window.open(
+						"https://github.com/es-julial/alx_capstone_project",
+						"_blank"
+					);
+				}}
+			>
+			{">>"} GitHub ...
+			</button>
 		</div>
-		
-		
-		
 	);
 };
 
 export default MyPlayer;
-

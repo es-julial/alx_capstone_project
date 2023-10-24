@@ -39,3 +39,20 @@
 	font-size: 2rem;
 	color: #5cb1b1;
 }
+
+/* +1:#fcb212 2:#e08804 1:#89f3f3 2:#5cb1b1 +3:#308282  */
+.demo-container .btn {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 35%;
+	width: 30%;
+
+	background-color: #308282;
+	border: none;
+	padding: 10px;
+	font-size: 0.7rem;
+	font-family: "Play", sans-serif;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+}

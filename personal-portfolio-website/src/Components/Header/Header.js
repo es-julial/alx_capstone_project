@@ -9,16 +9,6 @@ import "./Header.css";
 const PDF_FILE_URL = "http://localhost:3000/myCV.pdf";
 
 const Header = () => {
-	// const [show, setShow] = useState(true);
-	// const navigate = useNavigate();
-
-	// function goToDemo() {
-	// 	// navigate("/demo", { replace: true });
-	// 	// let path = `newPath`;
-	// 	// navigate(path);
-	// 	window.location.href = "http://localhost:3000/demo";
-	// }
-
 	const downloadFileAtURL = (url) => {
 		const filename = url.split("/").pop();
 		const aTag = document.createElement("a");
@@ -69,7 +59,7 @@ const Header = () => {
 				<div className="header-payment-container">
 					<Lnk to="demo" spy={true} smooth={true} offset={-100} duration={500}>
 						<Link to="/Demo">
-							<button className="btn2">Demo</button>
+						<button className="btn2">Demo</button>
 						</Link>
 					</Lnk>
 					<Lnk
